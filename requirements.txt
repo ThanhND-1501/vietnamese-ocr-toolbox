@@ -15,3 +15,8 @@ gdown==3.13.0
 webcolors
 pandas_profiling
 torchvision==0.10
+pylsd
+lsd
+ocrd-fork-pylsd==0.0.3
+pyclipper
+colorlog
