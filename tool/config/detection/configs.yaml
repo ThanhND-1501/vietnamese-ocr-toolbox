@@ -7,7 +7,7 @@
   val_anns: annotations/val.json
   #################   TRAINING CONFIG   ###################
   
-  pretrained: "./weights/PAN_resnet18_FPEM_FFM.pth"
+  pretrained: "/root/.cache/torch/hub/checkpoints/resnet18-5c106cde.pth"
 
   gpu_devices: '0'                     # supports multi-gpus
   num_epochs: 100
