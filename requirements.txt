@@ -21,3 +21,4 @@ ocrd-fork-pylsd==0.0.3
 pyclipper
 colorlog
 polygon
+einops
