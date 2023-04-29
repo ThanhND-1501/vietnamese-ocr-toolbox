@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from collections import namedtuple
 from . import rrc_evaluation_funcs
-import Polygon as plg
+import polygon as plg
 import numpy as np
 
 
