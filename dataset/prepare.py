@@ -12,7 +12,7 @@ from PIL import Image
 def extract_mcocr(data_dir = "./data/mcocr_public/mcocr_train_data/", out_dir="./data/ocr_data/"):
     
     mcocr_root = Path(data_dir)
-    mcocr_ims_dir = mcocr_root / "train_images"
+    mcocr_ims_dir = mcocr_root / "train_images/train_images"
     mcocr_csv_path = mcocr_root / "mcocr_train_df.csv"
 
     ocr_savedir = Path(f"{out_dir}/img")
