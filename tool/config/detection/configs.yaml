@@ -7,7 +7,7 @@
   val_anns: annotations/val.json
   #################   TRAINING CONFIG   ###################
   
-  pretrained: "/root/.cache/torch/hub/checkpoints/resnet18-5c106cde.pth"
+  pretrained: "/content/drive/MyDrive/Colab Notebooks/OCR/[vnm-ocr-toolbox] Train OCR/PAN_resnet18_FPEM_FFM.pth"
 
   gpu_devices: '0'                     # supports multi-gpus
   num_epochs: 100
